@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urljoin,urlparse
 #assign domain name of input url here
-domain=""
+domain="en.wikipedia.org"
 #A Simple Crawler to extract the titles of 
 # first n pages (if n==-1, all pages) 
 # starting from a given wiki page in wikipedia
